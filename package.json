@@ -1,0 +1,34 @@
+{
+  "name": "mario_jump",
+  "version": "1.0.0",
+  "description": "### Background",
+  "main": "webpack.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "javascript",
+    "frontend",
+    "css",
+    "html"
+  ],
+  "author": "Janice Yura Lee",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "ejs": "^3.1.6",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.70.0"
+  }
+}
